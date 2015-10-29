@@ -1,0 +1,137 @@
+﻿
+body {
+	background-color: white;
+	font-family:/*"Times New Roman", Times, serif;*/ Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	
+}
+
+#main {
+	width: 1000px;
+	margin: auto;
+	background-color:/*#E1FFE1;*/ #D2FFD2; 
+	border-radius: 3px;
+	border: thin solid;
+	padding: 10px;
+	font-family: default;
+}
+
+#container{
+	width:800px;
+	float:left;
+	margin-bottom:30px;	
+}
+
+#mainbody{
+	width:600px;
+	float:right;
+	/*position:relative;
+	left:200px;
+	right:200px;*/
+}
+
+/*-----LeftSide------*/
+
+#leftbar{
+	width:190px;
+	margin-top:80px;
+}
+
+.in {
+	width:140px;
+}
+
+.inwidth{
+	width:100px;
+}
+
+/*-----RightSide------*/
+
+#rightbar{
+	width:190px;
+	margin-left:800px;
+	margin-top:80px;
+}
+
+.cal{
+	width:60px;
+}
+
+#calculator th, #calculator td {
+	text-align:right;	
+}
+
+.cell{
+	text-align:right;
+}
+
+/*-----Footer------*/
+
+#footer {
+	clear:both;
+	/*margin-top:30px;*/
+	color: white;
+	text-align: center;	
+	border-top: thin solid #00B000;
+	border-bottom: thin solid #00B000;
+	padding: 4px;
+	background-color:#00B000;
+	border-radius: 8px;
+}
+
+/*-----Header------*/
+
+#header {	
+	margin-top: 0px;
+}
+
+#header p {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-variant: small-caps;
+	font-size: 300%;
+	margin: 0;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+#logo img {
+	border-radius: 15px;
+}
+
+#nav {
+	/*overflow: hidden;
+	float: left;*/
+	list-style: none;
+	margin-top: 5px;
+	padding: 4px;
+	border-top: thin solid #00B000;
+	border-bottom: thin solid #00B000;
+	background-color:#00B000;
+	border-radius: 8px;
+}
+
+#nav a {
+	text-decoration: none;
+	padding: 0 4px;
+	color: white;
+}
+
+#nav a:focus, #nav a:hover, #nav a:active {
+	background:green;
+	color:white;
+	font-size:100%;
+	border-radius: 6px;
+}
+
+
+#nav li {
+	display:inline;
+	padding: 0 6px;
+	margin-left: -5px;
+	border-left: thin solid black;
+}
+
+#nav li#first-link {
+	border-width: 0;
+}

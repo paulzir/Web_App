@@ -1,0 +1,276 @@
+﻿
+.column td { color: red; }
+td:nth-child(2) { color: black; }
+
+/*-----Customers------------------------------------------------*/
+
+#customers {
+	margin-top:30px;
+	margin-left:0px;
+}
+
+#customers h3{
+	margin-bottom:-10px;
+}
+
+#customers li{
+	margin-top:20px;
+	border: solid gray thin;
+	border-radius: 5px;
+	background-color:#E1FFE1;
+	box-shadow: 10px 10px 10px grey;
+}
+
+/*#customers table {
+	border-top: thin solid gray;
+	border-bottom: thin solid gray;
+}*/
+
+table#cus {
+    table-layout: fixed;
+    width: 300px;
+    border-top: thin solid gray;
+	/*border-bottom: thin solid gray;
+	border: 1px solid gray;*/
+
+}
+
+table#cus td{
+    /*border: 1px solid gray;*/
+}
+
+#customers input{
+	width:85px;
+}
+
+#customers_list {
+	max-width:300px;
+}
+
+#insert_customer{
+	margin-top:70px;
+	
+}
+
+input#add_cus{	
+	width:130px;
+}
+
+#insert_customer fieldset{
+	max-width:300px;
+	background-color:#E1FFE1;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px grey;
+}
+
+/*-----Products------------------------------------------------*/
+
+products {
+	margin-top:30px;
+}
+
+#products h3{
+	margin-bottom:-10px;
+}
+
+#products li{
+	margin-top:20px;
+	border: solid gray thin;
+	border-radius: 5px;
+	background-color:#E1FFE1;
+	box-shadow: 10px 10px 10px grey;
+
+}
+
+/*#products table{
+	border-top: thin solid gray;
+	border-bottom: thin solid gray;
+	/*width:auto;
+}*/
+
+table#pro {
+    table-layout: fixed;
+    width: 370px;
+    border-top: thin solid gray;
+	/*border-bottom: thin solid gray;
+	border: 1px solid gray;*/
+}
+
+table#pro td{
+    /*border: 1px solid gray;*/
+}
+
+#products input{
+	width:110px;
+}
+
+#products select{
+	width:115px;
+}
+
+textarea#pro_text{
+	width:110px;
+}
+
+#products_list {
+	max-width:370px;
+}
+
+#insert_product {
+	margin-top:70px;
+}
+
+#insert_product select,#insert_product input,#insert_product textarea{
+	width:150px;
+}
+
+input#add_pro{	
+	width:120px;
+}
+
+#insert_product fieldset{
+	max-width:350px;
+	border-radius: 5px;
+	background-color:#E1FFE1;
+	box-shadow: 10px 10px 10px grey;
+}
+
+/*-----Orders------------------------------------------------*/
+
+#orders{
+	margin-top:30px;
+}
+
+#orders h3{
+	margin-bottom:-10px;
+}
+
+#orders li{
+	margin-top:20px;
+	border: solid gray thin;
+	border-radius: 5px;
+	background-color:#E1FFE1;
+	box-shadow: 10px 10px 10px grey;
+}
+
+/*#orders table{
+	border-top: thin solid gray;
+	border-bottom: thin solid gray;
+}*/
+
+table#ord {
+    table-layout: fixed;
+    width: 425px;
+    padding:10px;
+    border-top: thin solid gray;
+	/*border-bottom: thin solid gray;
+	border: 1px solid gray;/
+}
+
+table#ord td{
+   /* border: 1px solid gray;*/
+}
+
+#order_list {
+	max-width:425px;
+}
+
+#orders select {
+	width:135px;
+}
+
+#orders input,#orders textarea {
+	width:130px;
+}
+
+#insert_order {
+	margin-top:70px;
+}
+
+#insert_order select,#insert_order input,#insert_order date,#insert_order textarea{
+	width:200px; display:inline-block;
+}
+
+#in_sel{
+	height:100px;
+}
+
+input#add_order{	
+	width:120px;
+}
+
+#insert_order fieldset{
+	max-width:300px;
+	border-radius: 5px;
+	background-color:#E1FFE1;
+	box-shadow: 10px 10px 10px grey;
+}
+
+/*------Home-----------------------------------------------*/
+
+#home {
+	margin-top:30px;
+	/*float:right;*/
+}
+
+#home img {
+	
+	border-radius: 8px;	
+}
+
+#home input{
+	width:180px;
+}
+
+#home a span {
+	display: none;
+}
+
+#home a:hover span#first {
+	display: block;
+	position:absolute;
+	top: 200px;
+	/*left: 440px;*/
+	width: 150px;
+	margin: 5px;
+	padding: 0px;
+	color: grey;
+	font-weight:bold;
+	font-size:small;
+	background: #D2FFD2; 
+	text-align: left;
+	/*border: 1px solid #666;*/
+}
+
+#home a:hover span#second {
+	display: block;
+	position: absolute;
+	top: 360px;
+	/*left: 440px;*/
+	width: 150px;
+	margin: 5px;
+	padding: 0px;
+	color: grey;
+	font-weight:bold;
+	font-size:small;
+	background: #D2FFD2; 
+	text-align: left;
+	/*border: 1px solid #666;*/
+}
+
+#home a:hover span#third {
+	display: block;
+	position: absolute;
+	top: 530px;
+	/*left: 440px;*/
+	width: 150px;
+	margin: 5px;
+	padding: 0px;
+	color: grey;
+	font-weight:bold;
+	font-size:small;
+	background: #D2FFD2; 
+	text-align: left;
+	/*border: 1px solid #666;*/
+}
+
