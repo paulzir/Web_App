@@ -12,5 +12,5 @@ The users can implement CRUD functions:<br/>
 
 Screenshots:<br/>
 
-![Alt text](https://raw.githubusercontent.com/paulzir/Web_App/master/shot_1.jpg)
-![Alt text](https://raw.githubusercontent.com/paulzir/Web_App/master/shot_2.jpg)
+![Alt text](https://raw.githubusercontent.com/paulzir/Web_App/master/shot1.jpg)
+![Alt text](https://raw.githubusercontent.com/paulzir/Web_App/master/shot2.jpg)
